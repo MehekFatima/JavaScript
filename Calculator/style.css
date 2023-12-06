@@ -1,0 +1,42 @@
+#outer{
+    border: 1px solid gray;
+    border-radius: 2px;
+    height: 400px;
+    width: 220px;
+    padding-top: 15px;
+    background-color: darkgrey;
+
+}
+#display{
+    border: 2px solid black;
+    height: 50px;
+    width: 183px;
+    margin: 2px 4px 3px 15px;
+    background-color: #fff;
+}
+button{
+    height: 32px;
+    width: 39px;
+    margin: 15px 20px 9px 10px;
+    font-weight: bolder;
+    padding: 4px;
+}
+#C{
+    font-weight: bolder;
+    background-color: red;
+    color: white;
+    text-align: center;
+    
+}
+#equal{
+    background-color: #428542;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin: 10px 8px 8px 162px;
+}
+#resp{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
