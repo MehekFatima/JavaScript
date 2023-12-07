@@ -38,3 +38,15 @@ function print(result){
     console.log(result);
 }
 adult.forEach(print);
+
+
+//reduce method
+//
+
+let num = [5,2];
+function multipy(multiply,element){
+    return multiply * element;
+}
+
+let mulres = num.reduce(multipy);
+console.log(mulres);
