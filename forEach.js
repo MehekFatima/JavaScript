@@ -25,3 +25,16 @@ numbers.forEach(squares);
 numbers.forEach(function(element){
     console.log(element);
 });
+
+
+//filter
+
+let age = [18,10,15,20,25,5];
+function checkage(element){
+    return element>=18;
+}
+let adult = age.filter(checkage);
+function print(result){
+    console.log(result);
+}
+adult.forEach(print);
